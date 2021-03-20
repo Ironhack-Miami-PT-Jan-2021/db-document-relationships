@@ -1,0 +1,14 @@
+<h2>Posts by {{author.username}}</h2>
+
+{{#each posts}}
+<hr>
+<div>
+  {{this.title}}
+</div>
+<p>
+  {{this.content}}
+</p>
+
+
+<hr>
+{{/each}}

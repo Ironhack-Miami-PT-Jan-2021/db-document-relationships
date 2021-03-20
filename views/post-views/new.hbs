@@ -1,0 +1,18 @@
+<h2>Create A New Post for {{theUser.username}}</h2>
+
+
+<form action="/posts/create/" method="POST">
+
+  <input type="hidden" name="userIDInput" value="{{theUser.id}}">
+
+  <p>Post Title</p>
+  <input type="text" name="postTitleInput">
+
+  <p>Post Content</p>
+  <input type="text" name="postContentInput">
+
+  <button>Submit</button>
+
+
+
+</form>
